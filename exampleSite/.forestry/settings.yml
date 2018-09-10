@@ -1,0 +1,47 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: exampleSite/content/tutorial
+  label: Tutorial
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/home
+  label: Home
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/publication
+  label: Publication
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/project
+  label: Project
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/talk
+  label: Talk
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/post
+  label: Post
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/content
+  label: Pages
+  create: all
+  match: "*"
+upload_dir: exampleSite/static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+version: '0.48'
